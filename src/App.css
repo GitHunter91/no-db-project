@@ -50,7 +50,7 @@ h3{
   left: 60%;
   font-family: 'Times New Roman';
   text-align: center;
-  text-shadow: 2px 1px 5px white, 2px 2px 25px purple, 0 0 1px gold;
+  text-shadow: 2px 0 5px white;
   flex-wrap:row;
 }
 #top{
