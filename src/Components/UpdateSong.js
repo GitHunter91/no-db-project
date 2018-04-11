@@ -18,6 +18,7 @@ export default class UpdateSong extends Component{
             
         }
         this.editSong = this.editSong.bind(this);
+        
     }
 
     componentDidMount(){

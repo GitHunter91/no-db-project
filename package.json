@@ -2,12 +2,21 @@
   "name": "react-directory",
   "version": "0.1.0",
   "private": true,
-  "main":"server/server.js",
-  "proxy":"http://localhost:4200",
+  "main": "server/server.js",
+  "proxy": {
+    "/auth/callback": {
+      "target": "http://localhost:4200"
+    },
+    "/api": {
+      "target": "http://localhost:4200"
+    }
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "massive": "^4.7.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"

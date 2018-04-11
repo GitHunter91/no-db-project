@@ -114,7 +114,7 @@ let music = [
         songLength:'3:42' ,
         subGenre: 'Club Mix',
         year: '2010',
-        img:'http://coverlandia.net/sites/default/files/styles/music_artwork_page/public/artworks/music/371031510628329.png?itok=kWGn8sNd',
+        img:'https://i1.sndcdn.com/artworks-000314042007-tlsuyl-t500x500.jpg',
         id: id++
         
     

@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 
+
 export default class Home extends Component{
 
 headOrFoot(){
     let word = '';
     if(this.props.type ==="header"){
         return <div class="container">
-                        <img id="top" src="http://uphoric.tv/wp-content/uploads/UPHORIC-POST-BUCKETLIST-ULTRA.jpg"/>
+                        <img id="top" src="http://uphoric.tv/wp-content/uploads/UPHORIC-POST-BUCKETLIST-ULTRA.jpg" alt='img'/>
                         <div class="centered"><header ><br/>Welcome to Beat Retreat!</header></div>
+                        
                  </div>
     }
     else{

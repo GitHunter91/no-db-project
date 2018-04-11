@@ -61,6 +61,7 @@ img.main{
 
   box-shadow: 10px 5px 24px purple;
   max-width: 300px;
+  max-height: 600px;
   display:inline;
   margin-left:35%;
 }
@@ -90,4 +91,31 @@ footer{
   background-color: black;
   color:white;
   text-shadow: 1px 2px 4px white;
+}
+section{
+  background-color: black;
+}
+
+.out{
+  float:right;
+  margin-right: 15px;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 0 3px;
+}
+.log{
+  float: right;
+  margin-right: 5px;
+  background-color:black;
+  color: white;
+  box-shadow: 2px 0 3px;
+}
+
+#userData{
+  position: absolute;
+  margin: 0;
+  float: left;
+  background-color: black;
+  color: white;
+  max-width: 100px;
 }
